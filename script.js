@@ -17,21 +17,9 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 $(function () {
     $('[data-toggle="tooltip"]').tooltip();
 
-    $('#somos').click(function(){
-        alert("Tu destino en Chile")
-    });
-
-    $('#destacado').click(function(){
-        alert("Tu destino en Chile")
-    });
-    
-    $('#contactos').click(function(){
-        alert("Tu destino en Chile")
-    });
 });
 
       
-
 
 
 $(window).scroll(function () {

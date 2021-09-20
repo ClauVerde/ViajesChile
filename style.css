@@ -20,7 +20,6 @@ body * {
     display: block; 
 }
 
-
 .img-first,
 .img-second,
 .img-third {
@@ -120,6 +119,7 @@ hr {
 .textos {
   color: white;
   text-align: left;
+  margin: 0.5rem;
 }
 
 .typeform-widget {
