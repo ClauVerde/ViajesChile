@@ -1,0 +1,217 @@
+body * {
+    text-align: center;
+    color: #000f08;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.imagen-viajes {
+    max-width: 2.8%;
+    margin: 1rem;
+}
+
+
+.navbar-nav {
+    font-family: 'Open Sans', sans-serif;
+    position: -webkit-sticky;  
+    position: sticky;
+    top: 0;
+    display: block; 
+}
+
+.fondo{
+    background-color: #1798c1!important;
+    border: white;
+}
+
+
+
+.img-first,
+.img-second,
+.img-third {
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.img-first {
+  background-image: url(../img/carousel1.jpg);
+}
+.img-second {
+  background-image: url(../img/carousel2.jpg);
+}
+.img-third {
+  background-image: url(../img/carousel3.jpg);
+}
+
+
+/*.carousel-item {
+    height: 65vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover
+}*/
+
+
+.font-weight-light {
+    font-family: 'Source Serif Pro', serif
+}
+
+.card {
+  margin: auto 0;
+}
+
+
+.color {
+  background-color: black;
+}
+
+.fa-plane {
+  color: white;
+  background-color:#1798c1;
+  padding-left: 140px;
+  padding-right: 140px;
+  font-size: 150%;
+  margin: 0 auto;
+  margin-right: 10px;
+}
+
+.fa-car {
+  color: white;
+  background-color:#1798c1;
+  padding-left: 140px;
+  padding-right: 140px;
+  font-size: 150%;
+  margin: 0 auto;
+  margin-right: 10px;
+}
+
+.fa-anchor {
+  color: white;
+  background-color:#1798c1;
+  padding-left: 140px;
+  padding-right: 140px;
+  font-size: 150%;
+  margin: 0 auto;
+  margin-right: 10px;
+}
+
+.card {
+  margin-right: 10px;
+}
+
+.card:last-of-type {
+  margin-right: 0;
+}
+
+.somos {
+  background-color: black;
+}
+
+h1 {
+  color: white!important;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+hr { 
+  color: #1798c1!important;
+  background-color: #1798c1!important;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+.textos {
+  color: white!important;
+  text-align: left;
+}
+
+.typeform-widget {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  padding: 2.5rem;
+}
+
+/*
+@media screen and (max-width:1200px) {
+  .card {
+    margin-left: 15px;
+    margin-bottom: 23px; 
+  }
+}
+
+
+@media screen and (max-width:1200px) {
+  .navbar-toggler{
+    position: fixed;
+left: 20px;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .imagen-viajes {
+    
+      max-width: 10%;
+  
+  }
+}
+
+@media screen and (max-width:768px) {
+  .navbar-bar .ml-auto ,a {
+    
+      text-align: left;
+  
+  }
+}
+
+@media screen and (max-width:768px) {
+  .texto-viajes {
+    margin-right: 80px!important;
+  
+  }
+}
+
+@media screen and (max-width:1200px) {
+  .foot {
+    position: relative;
+    right: 28px;
+  }
+}
+
+*/
+
+.card {
+  margin: 0 auto;
+  float: none;    
+}
+
+.fondo-footer {
+  background-color: black;
+}
+
+h2 {
+  color: white;
+  font-size:2.5;
+}
+
+h3 {
+  color: white;
+  font-size:2.5em;
+}
+
+h4 {
+    color: white;
+    font-size: 1.5em;
+}
+
+.fa-2x {
+  color: white!important;
+}
