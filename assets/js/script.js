@@ -12,14 +12,3 @@ $(function () {
     $('#contactos').click(function(){
         alert("Que esperas para ser parte de nosotros?")
     });
-    
-
-$(window).scroll(function () {
-    var scroll = $(window).scrollTop();
-    if (scroll < 500) {
-      $(".fixed-top").css("background", "transparent");
-    } else {
-      $(".fixed-top").css("background", "#15aabf");
-    }
-  });
-});
